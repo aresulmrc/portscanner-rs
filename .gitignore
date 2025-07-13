@@ -1,0 +1,7 @@
+/target
+**/*.rs.bk
+Cargo.lock
+
+# Rapor dosyaları
+*.json
+*.csv
