@@ -178,3 +178,4 @@ fn print_text_report(r: &UrlAnalysisResult) {
     println!("{:<20} {}", "CSP (Content-Security-Policy):", if r.security_headers.csp { "Aktif".green() } else { "Pasif".red() });
     println!("{:<20} {}", "X-Frame-Options:", if r.security_headers.x_frame_options { "Aktif".green() } else { "Pasif".red() });
 }
+

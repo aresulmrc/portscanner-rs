@@ -21,3 +21,4 @@ pub fn print_info(msg: &str) {
 pub fn format_duration(ms: u128) -> String {
     format!("{} ms", ms)
 }
+

@@ -122,3 +122,4 @@ async fn scan_port(ip: &str, port: u16) -> Option<PortInfo> {
     }
     None
 }
+
